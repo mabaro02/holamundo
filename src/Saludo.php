@@ -1,6 +1,6 @@
 <?php 
 
-namespace HolaMundoMultilenguaje;
+namespace HolaMundo;
 
 class Saludo
 {
