@@ -38,7 +38,9 @@ jobs:
         php-version: '8.3'
  
     - name: Install dependencies
-      run: composer install
+      run: |
+        curl -sS https://getcomposer.org/installer | php
+        sudo mv composer.phar /usr/local/bin/composer
  
     - name: Deploy to server
       env:
